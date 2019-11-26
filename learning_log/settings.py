@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     # My apps
     'learning_logs',
     'users',
+    'bootstrap4',
 ]
 
 MIDDLEWARE = [
