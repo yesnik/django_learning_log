@@ -40,3 +40,8 @@ python manage.py runserver
 ```
 
 5. Visit URL: http://127.0.0.1:8000/
+
+## List of references
+
+- Python Crash Course: A Hands-On, Project-Based Introduction to Programming (2015) by Eric Matthes
+- https://www.djangoproject.com/
