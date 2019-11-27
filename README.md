@@ -1,5 +1,7 @@
 # Django Learning Log
 
+This Django project was made using the contents of the book *Python Crash Course: A Hands-On, Project-Based Introduction to Programming (2015) by Eric Matthes*.
+
 ## Installation
 
 1. Clone this repo
@@ -40,8 +42,3 @@ python manage.py runserver
 ```
 
 5. Visit URL: http://127.0.0.1:8000/
-
-## List of references
-
-- Python Crash Course: A Hands-On, Project-Based Introduction to Programming (2015) by Eric Matthes
-- https://www.djangoproject.com/

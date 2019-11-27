@@ -19,7 +19,7 @@
 {% bootstrap_messages %}
 
 <nav class="navbar navbar-dark bg-dark navbar-expand-lg ">
-  <a class="navbar-brand" href="#">Django Learning Log</a>
+  <a class="navbar-brand" href="{% url 'learning_logs:index' %}">Django Learning Log</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -46,19 +46,7 @@
 
 <div class="container">
   <div class="page-header">
-    {% block header %}
-      <div class="jumbotron">
-        <h1 class="display-4">Track your learning.</h1>
-
-        <p class="lead">This project allows you to save your learning progress. 
-          You'll never lose your knowledge</p>
-        <hr class="my-4">
-        <p>Feel free to wander around this site using links.</p>
-        <p class="lead">
-          <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
-        </p>
-      </div>
-    {% endblock header %}
+    {% block header %}{% endblock header %}
   </div>
 
   <div>
