@@ -23,22 +23,22 @@ virtualenv myenv
 python myenv/bin/activate
 ```
 
-2. Install requirements
+4. Install requirements
 
 ```bash
 pip install -r requirements.txt
 ```
 
-3. Apply migrations
+5. Apply migrations
 
 ```bash
 python manage.py migrate
 ```
 
-4. Run development server
+6. Run development server
 
 ```bash
 python manage.py runserver
 ```
 
-5. Visit URL: http://127.0.0.1:8000/
+7. Visit URL: http://127.0.0.1:8000/
